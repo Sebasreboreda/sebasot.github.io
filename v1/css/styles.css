@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'avatar';
+    src: url(/fonts/Shimotsuki-Personal.otf)
+}
+
+.title {
+    font-size: xxx-large;
+}
+
+h1,
+h2 {
+    font-family: avatar;
+    font-weight: lighter;
+    color: aliceblue;
+    text-align: center;
+}
+
+body {
+    background-image: url(/img/fondo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.index {
+    color: aliceblue;
+    font-size: medium;
+    font-family: avatar;
+    font-size: large;
+    text-align: center;
+    text-decoration-line: underline;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.descripcion {
+    position: static;
+    float: top;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 3%;
+}
+
+.photo1 {
+    width: 45%;
+    height: 80vh;
+    position: static;
+}
+
+.james {
+    width: 80%;
+    height: 30vh;
+    position: static;
+}
+
+.descripcion2 {
+    color: aliceblue;
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+img {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.characters {
+    color: aliceblue;
+    justify-content: center;
+    font-family: avatar;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.streaming {
+    color: aliceblue;
+    justify-content: center;
+}
+
+.table {
+    color: aliceblue;
+    align-items: center;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.video {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.videoop {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 60vh;
+    height: 30vh;
+}
+
+.media {
+    text-align: center;
+}
+
+.image {
+    width: 60vh;
+    height: 30vh;
+}
+
+.container{
+display: grid;
+width: 100%;
+grid-template-columns: 50% 50%;
+padding: 10px;
+margin: auto;
+box-sizing: border-box;
+}
+
+.column p{
+padding-left: 20%;
+padding-right: 20%;
+}
+
+.column img{
+    width: 60%;
+    height: 30vh;
+box-sizing: border-box;
+}
+
+.container2{
+width: 100%;
+margin: auto;
+grid-row: 20px;
+padding: 10%;
+box-sizing: border-box;
+}
+
+.video {
+    width: 60vh;
+    height: 30vh;
+}
+
+.links {
+    background-color:rgba(240, 248, 255, 0.3);
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    margin: 0 auto;
+    width: 20%;
+    padding: 10px;
+}
+
+.opinion {
+    background-color: rgb(60, 166, 228);
+    color: aliceblue;
+    text-align: center;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.box {
+    width: 30%;
+    height: 20%;
+}

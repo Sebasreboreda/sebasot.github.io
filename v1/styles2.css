@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(50, 50, 50);
+}
+.top{
+    display: flex;
+
+}
+.top1{
+    background-color: gray;
+
+}
+
+h1 {
+    color: aliceblue;
+    float: top;
+}
+
+h2 {
+    background-color: gray;
+    font-size: 25px;
+    float: top;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+.pepe{
+    display:flex
+}
+.central {
+    display:grid;
+    background-color: aliceblue;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+.cara {
+    width: 10em;
+    height: 10em;
+    flex: left;
+    background-color: rgb(200,200,200);
+    float: top;
+    border:dashed;
+    border-width: thin;
+}
+.cara1{
+    background-color: rgb(200,200,200);
+}
+
+p {
+    position: relative;
+}
+
+.h2 {
+    background-color: rgb(50, 50, 50);
+    
+
+}
+
+.wrapp{
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: rgb(50, 50, 50) ;
+    color:aliceblue;
+
+}
+.nowrapp{
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: rgb(50, 50, 50) ;
+    color:aliceblue;
+
+}
+.aside {
+    width: 18%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: aliceblue;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: right;
+    display: flex;
+}
+
+.nav {
+    width: 18%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: aliceblue;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+
+}
