@@ -1,3 +1,4 @@
 - [Version 0](https://sebasreboreda.github.io/sebasot.github.io/v0/)
 - [Version 1](https://sebasreboreda.github.io/sebasot.github.io/v1/)
 - [Version 2.1](https://sebasreboreda.github.io/sebasot.github.io/v2.1/)
+- [Version 2.2](https://sebasreboreda.github.io/sebasot.github.io/v2.2/)
