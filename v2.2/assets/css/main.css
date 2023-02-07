@@ -34,20 +34,8 @@ body {
 
 }
 
-.video {
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-	width: 60vh;
-    height: 30vh;
-}
-
-.videoop {
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    width: 60vh;
-    height: 30vh;
+.vox{
+	background-color: rgba(240, 248, 255, 0.678);
 }
 
 .media {
@@ -55,15 +43,20 @@ body {
 }
 
 .image {
-    width: 60vh;
-    height: 30vh;
+    width: 100%;
+    height: 25vh;
+}
+
+.video{
+	width: 100%;
+	height: 25vh;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 
 .slider {
     margin: auto;
-    width: 50vh;
-    height: 30vh;
-
+    height: 25vh;
     display: grid;
     grid-auto-flow: row;
     scroll-snap-type: y mandatory;
@@ -77,10 +70,8 @@ body {
 
 .slider img {
     scroll-snap-align: start;
-    object-fit: cover;
-    width: 50vh;
-    height: 30vh;
-
+	width:100%;
+	height: 25vh;
 }
 
 @font-face {
@@ -96,6 +87,7 @@ body {
 
 .avatar{
 	font-family: 'avatar';
+	color: rgb(0, 162, 255);
 }
 
 ol, ul {
@@ -219,7 +211,8 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
-		color: inherit;
+		color: rgb(0, 162, 255);
+		font-weight: bold ;
 	}
 
 		a:hover {
@@ -763,6 +756,7 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			height: auto;
 		}
 
 			.image.main img {
@@ -986,7 +980,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: rgba(255, 255, 255, 0.175);
 				}
 
 				ul.icons li a:active {
@@ -1012,7 +1006,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(255, 255, 255, 0.075);
+				background-color: rgba(255, 255, 255, 0.445);
 			}
 
 		table td {
@@ -1204,13 +1198,11 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
+			background-image: linear-gradient(to top, rgba(20, 79, 197, 0.158), rgba(19, 21, 25, 0.5)), url("/img/fondo.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
 			z-index: 2;
 		}
 
@@ -1459,6 +1451,7 @@ input, select, textarea {
 		}
 
 		body.is-article-visible #header {
+			width: 50vh;
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
 			-ms-transform: scale(0.95);
@@ -1496,7 +1489,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 50%) {
 
 			#header > * {
 				margin-top: 2rem;
@@ -1619,6 +1612,7 @@ input, select, textarea {
 		}
 
 			#main article.active {
+				width: 50vh;
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
@@ -1640,6 +1634,7 @@ input, select, textarea {
 			}
 
 				#main article .close:before {
+					width: 50vh;
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
 					-ms-transition: background-color 0.2s ease-in-out;
@@ -1669,6 +1664,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main article {
+				
 				padding: 3.5rem 2rem 0.5rem 2rem ;
 			}
 
@@ -1685,6 +1681,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#main article {
+				width: 50vh;
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
 
@@ -1712,6 +1709,7 @@ input, select, textarea {
 		}
 
 		body.is-article-visible #footer {
+			width: 50vh;
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
 			-ms-transform: scale(0.95);
@@ -1725,4 +1723,7 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0.5;
+		}
+		.foot{
+			background-color: #00000000;
 		}
