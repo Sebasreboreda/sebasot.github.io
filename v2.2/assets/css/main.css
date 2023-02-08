@@ -50,6 +50,7 @@ body {
 .video{
 	width: 100%;
 	height: 25vh;
+	border-radius: 0%;
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 }
@@ -87,7 +88,7 @@ body {
 
 .avatar{
 	font-family: 'avatar';
-	color: rgb(0, 162, 255);
+	color:aliceblue;
 }
 
 ol, ul {
@@ -1170,7 +1171,6 @@ input, select, textarea {
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
-		-webkit-backface-visibility: hidden;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1198,8 +1198,8 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: url(./img/fondo.jpg);
-			background-attachment: fixed;
+			background-image: url(/img/AVATAR2.jpg);
+			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -1215,7 +1215,8 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("/.img/fondo.jpg");
+			background-image: url("../../images/AVATAR2.jpg");
+			background-repeat: no-repeat;
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
