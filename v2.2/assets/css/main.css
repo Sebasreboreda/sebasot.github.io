@@ -1198,7 +1198,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: url("../img/fondo.jpg");
+			background-image: url(/img/fondo.jpg);
 			background-attachment: fixed;
 			background-size: cover;
 			background-position: center;
@@ -1215,7 +1215,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("img/fondo.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
