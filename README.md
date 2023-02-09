@@ -3,6 +3,38 @@
 - [Version 2.1, plantilla default](https://sebasreboreda.github.io/sebasot.github.io/v2.1/)
 - [Version 2.2, plantilla modificada](https://sebasreboreda.github.io/sebasot.github.io/v2.2/)
 
-- Propiedades usadas:
-font-family:
-src:
+Propiedades usadas:
+- font-family:
+- src:
+- font-size:
+- font-weight:
+- color:
+- text-align:
+- background-image:
+- background-size:
+- background-attachment:
+-  -moz-border-radius:
+-  -webkit-border-radius:
+-  border-radius:
+-  position:
+-  float:
+-  margin-left:
+-  width:
+-  height:
+-  justify-content:
+-  align-items:
+-  margin:
+-  box-sizing:
+-  padding:
+-  grid-template-columns:
+-  display:
+-  padding-left:
+-  padding-right:
+-  grid-row:
+-  grid-auto-flow:
+-  scroll-snap-type:
+-  overflow-y:
+-  overflow-x:
+-  object-fit:
+-  scroll-snap-align:
+-  background-color:
