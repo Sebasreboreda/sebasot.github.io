@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>James cameron</title>
+        <link>http://127.0.0.1:5500/v1/index.html</link>
+        <description>Noticias sobre James cameron</description>
+        <item>
+        <title>JAMES CAMERON HABLA SOBRE SU DISCURSO EN LOS OSCAR</title>
+        <link>https://www.fotogramas.es/premios-oscar-cine/a43268918/james-cameron-reaccion-warren-beatty-discurso-oscar-titanic/</link>
+        <description>JAMES CAMERON REVELA QUÉ PASÓ CON WARREN BEATTY TRAS SU POLÉMICO DISCURSO EN LOS OSCAR DE 'TITANIC'</description>
+
+        <title>Que pasaría si 'titanic' hubiera fracasado</title>
+        <link>https://www.fotogramas.es/premios-oscar-cine/a43268918/james-cameron-reaccion-warren-beatty-discurso-oscar-titanic/</link>
+        <description>El 'plan de emergencia' de James Cameron si 'Titanic' era un fracaso</description>
+
+        <title>James Cameron patrimonio</title>
+        <link>https://en.as.com/latest_news/what-is-james-camerons-net-worth-n/</link>
+        <description>What is James Cameron’s net worth?</description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias sobre Avatar</title>
+        <link>http://127.0.0.1:5500/v1/index.html</link>
+        <description>AVATAR</description>
+        <item>
+        <title>Avatar 2 en disney+</title>
+        <link>https://www.espinof.com/estrenos/avatar-2-tiene-fecha-estreno-streaming-tiene-truco-james-cameron-quiere-que-vuelvas-a-pasar-caja-antes-depoder-verla-disney-plus</link>
+        <description>'Avatar 2' ya tiene fecha de estreno en streaming, pero tiene truco: James Cameron quiere que vuelvas a pasar por caja antes de poder verla en Disney+</description>
+
+
+        <title>Avatar favorito para los españoles</title>
+        <link>https://www.elindependiente.com/tendencias/cine/2023/03/10/avatar-y-spielberg-favoritos-al-oscar-para-los-espanoles/</link>
+        <description>'Avatar' y Spielberg, favoritos al Oscar para los españoles</description>
+
+        <title>Oscar para Avatar 2</title>
+        <link>https://www.elconfidencial.com/cultura/cine/premios-oscar/2023-03-09/james-cameron-oscar-avatar-titanic_3588165/</link>
+        <description>De los 11 Oscar de 'Titanic' a 'Avatar': ¿qué opciones tiene James Cameron de ganar en los premios?</description>
+        </item>
+    </channel>
+</rss>
