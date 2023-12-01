@@ -16,6 +16,7 @@ body {
 }
 
 .cabecera {
+    z-index: 1;
     top: 0%;
     width: 100%;
     position: fixed;
@@ -144,14 +145,16 @@ div {
 }
 
 .cuadrados {
+    z-index: 0;
     margin-top: 10%;
     margin-bottom: 5%;
     display: flex;
-    position:static;
+    
 }
 
 .ej2 {
     position: relative;
+    z-index: 0;
 }
 
 .ejs2 {
@@ -216,16 +219,19 @@ div {
 
 .lista ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
-.lista2 {
+.lista2, .lista3 {
     width: 55%;
     border-radius: 25px;
     border-left: 0px;
     margin-bottom: 5%;
     background-color: #F000DB;
+}
+
+.lista2 li, .lista3 li {
+    border: 0px;
 }
 
 .footer {
