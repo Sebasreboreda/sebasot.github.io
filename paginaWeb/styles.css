@@ -242,7 +242,9 @@ footer {
 
 /*MEDIA*/
 .slider {
-    margin: auto;
+    margin-top: 2%;
+    align-items: center;
+    align-self:center;
     width: 50vh;
     height: 30vh;
     display: grid;
