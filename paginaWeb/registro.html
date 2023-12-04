@@ -9,7 +9,7 @@
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="canvas.html">Canvas</a></li>
-            <li><a href="/css/ej1.html">CSS</a></li>
+            <li><a href="/css.html">CSS</a></li>
             <li><a href="media.html">Media</a></li>
             <li><a href="registro.html">Registro</a></li>
         </ul>
@@ -19,12 +19,17 @@
     <div class="page">
     <h3>registro</h3>
     <form id="formulario">
+        <script src="registro.js"></script>
+        <p id="nombreError"></p>
     <p>Nombre:<input type="text" class="registro" id="nombre"></p>
+    <p id="emailError"></p>
     <p>Correo:<input type="text" class="registro" id="correo"></p>
+    <p id="nacimientoError"></p>
     <p>Nacimiento:<input type="date" class="registro" id="nacimiento"></p>
+    <p id="contraseñaError"></p>
     <p>Contraseña:<input type="password" class="registro" id="contraseña"></p>
     <p><input type="submit" value="Enviar" class="enviar" id="submit"></p>
-    <script src="/registro.js"></script>
+    
     </form>
 </div>
 </body>

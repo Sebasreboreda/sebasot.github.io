@@ -3,12 +3,14 @@
     src: url(./fonts/ka1.ttf);
     font-weight: bold;
 }
+
 @font-face {
     font-family: "cp";
     src: url(./fonts/cyberpunk_is_not_dead/CIND.otf);
-    font-weight:lighter;
+    font-weight: lighter;
 }
-*{
+
+* {
     margin: 0;
 }
 
@@ -16,7 +18,7 @@ body {
     background-image: url('./media/wp6031221.webp');
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;   
+    background-position: center center;
 }
 
 nav ul {
@@ -44,7 +46,7 @@ nav a {
 nav {
     height: 5vh;
     font-style: italic;
-    font-size:medium;
+    font-size: medium;
     font-weight: bold;
     background: rgba(240, 43, 106, 0.963);
     padding-top: 15px;
@@ -56,7 +58,7 @@ body {
     text-align: center;
 }
 
-body h4{
+body h4 {
     background-color: #00000075;
     font-family: "cp";
     color: rgb(255, 255, 255);
@@ -80,14 +82,14 @@ body h1 {
     border-radius: 30px;
 }
 
-h5{
+h5 {
     font-size: larger;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
     font-family: cp;
     padding: 3%;
-    background-color:#00000075;
+    background-color: #00000075;
     border-radius: 25px;
 }
 
@@ -98,7 +100,7 @@ h5{
     margin-bottom: 2%;
 }
 
-.imagenes{
+.imagenes {
     height: 100%;
     background-color: #00000075;
     margin-top: 2%;
@@ -109,18 +111,18 @@ h5{
     border-radius: 30px;
 }
 
-body img{
-    height: 20vh;
-    width: 30vh;
+.img {
+    height: 25%;
+    width: 30%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
-body img:hover{
+.img:hover {
     transform: scale(1.2);
     border-radius: 30px;
     border: 5px solid rgba(240, 43, 106, 0.963);
-    margin:0px;
+    margin: 0px;
 }
 
 body h3 {
@@ -135,8 +137,8 @@ body h3 {
     border-radius: 30px;
 }
 
-form{
-    font-size:medium;
+form {
+    font-size: medium;
     margin-left: 10%;
     margin-right: 10%;
     background-color: #00000075;
@@ -150,42 +152,42 @@ form{
     border-radius: 30px;
 }
 
-input{
-    font-size:smaller;
-    font-family:"cp";
+input {
+    font-size: smaller;
+    font-family: "cp";
     width: 35%;
     margin-left: 2%;
     border-radius: 30px;
 }
 
-form p{
+form p {
     font-style: italic;
     text-align: center;
-    margin-top:1%;
-    margin-left:5%;
+    margin-top: 1%;
+    margin-left: 5%;
     margin-right: 5%;
 }
 
-footer{
+footer {
     height: 13vh;
     padding: 0;
     bottom: 0;
     width: 100%;
     margin-bottom: 0%;
-    font-family:"cp";
+    font-family: "cp";
     font-style: italic;
     font-size: large;
     font-weight: bold;
     background: rgba(240, 43, 106, 0.963);
     text-align: center;
     box-sizing: border-box;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items:center ;
+    align-items: center;
 }
 
-.iz{
+.iz {
     color: #000;
     width: auto;
 }
@@ -195,29 +197,29 @@ footer{
     text-decoration: none;
 }
 
-.iz a{
+.iz a {
     text-decoration: none;
     color: #ffffff;
-    font-size:small;
+    font-size: small;
 }
 
-.der{
+.der {
     width: auto;
     margin-right: 10%;
-    font-size:small;
+    font-size: small;
     text-align: center;
 }
 
-.canvas1{
- background-color: rgba(255, 255, 255, 0.459)
+.canvas1 {
+    background-color: rgba(255, 255, 255, 0.459)
 }
 
-.css{
+.css {
     margin-top: 2%;
     margin-left: 15%;
     margin-right: 15%;
     background-color: #00000075;
-    font-family:"cp";
+    font-family: "cp";
     font-style: italic;
     font-size: large;
     list-style: none;
@@ -225,15 +227,57 @@ footer{
     border: 5px solid rgba(240, 43, 106, 0.963);
 }
 
-.css li{
+.css li {
     margin-top: 1%;
 }
 
-.css a{
+.css a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.enviar{
+.enviar {
     background-color: #feff6e;
+}
+
+/*MEDIA*/
+.slider {
+    margin: auto;
+    width: 50vh;
+    height: 30vh;
+    display: grid;
+    grid-auto-flow: row;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.slider img {
+    scroll-snap-align: start;
+    object-fit: cover;
+    width: 50vh;
+    height: 30vh;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.myVideo {
+    width: 50vh;
+    height: 50%;
+}
+
+/*Estilo para hacer que los videos sean responsive y 
+que se pongan uno encima del otro al hacerse pequeña la pantalla*/
+@media (max-width: 768px) {
+    .video div {
+        flex: 0 0 100%;/
+    }
 }
